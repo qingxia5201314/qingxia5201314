@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420" role="img" aria-label="Kitepop — Information Security, CTF Reverse and Misc">
+  <title>Kitepop</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06090F"/>
+      <stop offset="0.48" stop-color="#0C1424"/>
+      <stop offset="1" stop-color="#070C15"/>
+    </linearGradient>
+
+    <linearGradient id="wordmark" x1="0" y1="0" x2="1" y2="0.35">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.52" stop-color="#E6EDFF"/>
+      <stop offset="1" stop-color="#8CAEFF"/>
+    </linearGradient>
+
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6D5CFF" stop-opacity="0.95"/>
+      <stop offset="0.62" stop-color="#35E0FF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#35E0FF" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="nebulaViolet" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#6D5CFF" stop-opacity="0.42"/>
+      <stop offset="0.55" stop-color="#5B49E8" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#5B49E8" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="nebulaCyan" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#28D7F0" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#28D7F0" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0v44" fill="none" stroke="#26364F" stroke-width="1"/>
+    </pattern>
+
+    <linearGradient id="gridFade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+
+    <mask id="gridMask">
+      <rect width="1600" height="420" fill="url(#gridFade)"/>
+    </mask>
+  </defs>
+
+  <!-- 夜空 -->
+  <rect width="1600" height="420" fill="url(#sky)"/>
+  <rect width="1600" height="420" fill="url(#grid)" mask="url(#gridMask)" opacity="0.55"/>
+  <ellipse cx="1230" cy="40" rx="520" ry="360" fill="url(#nebulaViolet)"/>
+  <ellipse cx="380" cy="400" rx="460" ry="300" fill="url(#nebulaCyan)"/>
+
+  <!-- 星点 -->
+  <g fill="#C9D8FF">
+    <circle cx="196" cy="58" r="1.6" opacity="0.7"/>
+    <circle cx="352" cy="34" r="1.2" opacity="0.55"/>
+    <circle cx="560" cy="96" r="1.4" opacity="0.4"/>
+    <circle cx="880" cy="52" r="1.7" opacity="0.6"/>
+    <circle cx="1042" cy="120" r="1.2" opacity="0.45"/>
+    <circle cx="1452" cy="286" r="1.5" opacity="0.5"/>
+    <circle cx="1540" cy="196" r="1.1" opacity="0.45"/>
+    <circle cx="708" cy="382" r="1.3" opacity="0.35"/>
+    <circle cx="1240" cy="372" r="1.2" opacity="0.4"/>
+    <circle cx="96" cy="250" r="1.1" opacity="0.35"/>
+  </g>
+
+  <!-- 月亮 -->
+  <g opacity="0.55">
+    <circle cx="1382" cy="86" r="62" fill="none" stroke="#3A4E74" stroke-width="1.2"/>
+    <circle cx="1382" cy="86" r="86" fill="none" stroke="#2C3D5C" stroke-width="1" stroke-dasharray="2 8"/>
+  </g>
+
+  <!-- 风筝线 -->
+  <g fill="none" stroke="#4B6188" stroke-width="1.1" opacity="0.5">
+    <path d="M1058 252 C 1140 300, 1200 330, 1316 236"/>
+    <path d="M1132 344 C 1188 320, 1246 300, 1290 210"/>
+    <path d="M1204 392 C 1290 342, 1372 300, 1478 138"/>
+  </g>
+
+  <!-- 大风筝 -->
+  <g transform="translate(1316 214) rotate(-14) scale(2.15)" fill="none" stroke="#8FA6FF" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M0 -36 L31 -2 L0 48 L-31 -2 Z" stroke-width="2.2"/>
+    <path d="M0 -36 L0 48 M-31 -2 L31 -2" stroke-width="1.2" opacity="0.6"/>
+    <path d="M0 48 q 11 17 -2 32 q -13 15 -1 30" stroke-width="1.7" stroke-dasharray="5 7" opacity="0.7" stroke="#6D5CFF"/>
+    <circle cx="0" cy="-2" r="2.6" fill="#C9D8FF" stroke="none" opacity="0.9"/>
+  </g>
+
+  <!-- 中风筝 -->
+  <g transform="translate(1484 128) rotate(16) scale(1.28)" fill="none" stroke="#35E0FF" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M0 -36 L31 -2 L0 48 L-31 -2 Z" stroke-width="2.2" opacity="0.85"/>
+    <path d="M0 -36 L0 48 M-31 -2 L31 -2" stroke-width="1.2" opacity="0.5"/>
+    <path d="M0 48 q 11 17 -2 32" stroke-width="1.7" stroke-dasharray="5 7" opacity="0.6"/>
+  </g>
+
+  <!-- 小风筝 -->
+  <g transform="translate(1164 312) rotate(-32) scale(0.86)" fill="none" stroke="#FFB86B" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M0 -36 L31 -2 L0 48 L-31 -2 Z" stroke-width="2.4" opacity="0.9"/>
+    <path d="M0 -36 L0 48" stroke-width="1.4" opacity="0.6"/>
+  </g>
+
+  <!-- 文字 -->
+  <g font-family="'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', sans-serif">
+    <text x="104" y="134" font-size="19" letter-spacing="6.5" fill="#6D80A2" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, ui-monospace, monospace">INFORMATION SECURITY &#183; CTF &#183; REVERSE</text>
+
+    <text x="100" y="256" font-size="116" font-weight="800" letter-spacing="-1.5" fill="url(#wordmark)">Kitepop</text>
+
+    <rect x="104" y="288" width="452" height="2.5" fill="url(#rule)"/>
+
+    <text x="104" y="336" font-size="25" fill="#9DAFCB">信息安全在读 &#183; CTF 逆向 / Misc &#183; 折腾 AI Agent 与自动化</text>
+
+    <text x="104" y="380" font-size="17" letter-spacing="1.4" fill="#57678A" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, ui-monospace, monospace">kitepop.top</text>
+    <circle cx="225" cy="374" r="3" fill="#35E0FF" opacity="0.85"/>
+  </g>
+</svg>
