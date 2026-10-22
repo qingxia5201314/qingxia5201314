@@ -47,7 +47,6 @@
 | [**Kitepopblog**](https://github.com/qingxia5201314/Kitepopblog) | 自研博客系统：React 前端 + Hono 后端，自带管理后台、鉴权、评论、媒体管理与 SEO 优化笔记 | TypeScript · React · Hono |
 | [**kiteblog2**](https://github.com/qingxia5201314/kiteblog2) | [kitepop.top](https://kitepop.top/) 现役博客源码（Hexo + Arknights 主题），CTF / 渗透 / 逆向札记都在这儿 | JavaScript · Hexo |
 | [**REEnd**](https://github.com/qingxia5201314/REEnd) | 逆向与后端自学资料库：Linux、MySQL、Python 的笔记与练习 | 笔记 / 练习 |
-| [**-MCP**](https://github.com/qingxia5201314/-MCP) | 给 Codex / Claude 这类 AI 客户端用的万兴脑图 MCP Server：自然语言生成与编辑思维导图，支持 Markdown / FreeMind / OPML 导出与自动备份（开发中） | MCP · Node.js |
 | [**ZafxyrAgent**](https://github.com/qingxia5201314/ZafxyrAgent) | 跑在 root 安卓上的自治 AI Agent：LLM function calling 直接操作手机（fork，KernelSU / Magisk 模块 + Go 守护进程） | Go · KernelSU |
 
 ## 最近在写
